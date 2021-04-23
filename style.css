@@ -37,6 +37,9 @@ span{
 }
 
 @media (max-width:450px){
+    h1{
+        text-align: center;
+    }
     .countdown{
         flex-wrap: wrap;
     }
