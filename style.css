@@ -6,9 +6,8 @@
 
 body{
     margin: 0;
-    background-image: url(image.jpg);
-    background-size:cover;
-    color: white;
+    background-color: #ffc77d;
+    color: brown
     font-family: 'Lora', serif;
 }
 h1{
@@ -35,5 +34,11 @@ span{
     margin: 1em;
     font-size: 1.5em;
     margin-top: 0.2em;
+}
+
+@media (max-width:450px){
+    .countdown{
+        flex-wrap: wrap;
+    }
 }
 
