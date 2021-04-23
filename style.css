@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url(image.jpg);
+    background-size:cover;
+    color: white;
+    font-family: 'Lora', serif;
+}
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+span{
+    margin-top: 0;
+}
+.large{
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.container{
+    text-align: center;
+    margin:10em;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+}
+.days,.hours,.minutes,.seconds{
+    margin: 1em;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+
