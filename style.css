@@ -2,6 +2,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -37,11 +39,11 @@ span{
 }
 
 @media (max-width:450px){
-    h1{
-        text-align: center;
-    }
     .countdown{
         flex-wrap: wrap;
+    }
+    .container{
+        margin: 6em;
     }
 }
 
