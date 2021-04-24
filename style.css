@@ -12,10 +12,16 @@ body{
     color: brown
     font-family: 'Lora', serif;
 }
+
+/* Typography */
+
 h1{
     font-size: 3.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
+
+/* Layout */
+
 span{
     margin-top: 0;
 }
